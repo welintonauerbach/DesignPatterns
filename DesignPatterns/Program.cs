@@ -7,6 +7,9 @@ namespace DesignPatterns
 {
     internal static class Program
     {
+        /// <summary>
+        /// Método Principal Main para Console
+        /// </summary>
         private static void Main()
         {
             Console.WriteLine("Pattern Observer");

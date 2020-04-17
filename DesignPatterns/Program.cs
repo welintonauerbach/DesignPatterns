@@ -3,7 +3,6 @@ using DesignPatterns.Observer;
 using DesignPatterns.Prototype;
 using DesignPatterns.Singleton;
 
-
 namespace DesignPatterns
 {
     internal static class Program

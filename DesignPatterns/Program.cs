@@ -1,7 +1,10 @@
 ﻿using System;
-using DesignPatterns.Observer;
-using DesignPatterns.Prototype;
-using DesignPatterns.Singleton;
+using DesignPatterns.AbstractFactory;
+using DesignPatterns.BuilderDesign;
+using DesignPatterns.FactoryMethod;
+using DesignPatterns.ObserverDesign;
+using DesignPatterns.PrototypeDesign;
+using DesignPatterns.SingletonDesign;
 
 namespace DesignPatterns
 {
@@ -24,8 +27,19 @@ namespace DesignPatterns
             PrototypePattern.CreateCars();
             Console.WriteLine("\n\n-----------------");
 
-            Console.ReadKey();
+            Console.WriteLine("Build Design Pattern");
+            BuilderDesignPattern.BuilderDesign01();
+            Console.WriteLine("\n\n-----------------");
 
+            Console.WriteLine("Factory Pattern");
+            FactoryPattern.FactoryPattern01();
+            Console.WriteLine("\n\n-----------------");
+
+            Console.WriteLine("Abstract Factory Pattern");
+            AbstractFactoryPattern.AbstractFactory01();
+            Console.WriteLine("\n\n-----------------");
+
+            Console.ReadKey();
         }
     }
 }
